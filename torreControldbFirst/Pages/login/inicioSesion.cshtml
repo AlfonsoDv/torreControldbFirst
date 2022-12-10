@@ -1,0 +1,19 @@
+﻿@page
+@model torreControldbFirst.Pages.modelo.inicioSesionModel
+@{
+    <form method="post">
+            <legend>Login</legend>
+            <div>
+                <label for="CodEmpleado">Codigo de Empleado:</label>
+                <input type="text" name="CodEmpleado" value="" />
+            </div>
+            <div>
+                <label for="ClaveEmpleado">Clave Empleado:</label>
+                <input type="password" name="ClaveEmpleado" value="" />
+            </div>
+
+            <div>
+                <input type="submit" value="submit" class="submit" />
+            </div>
+    </form>
+}
